@@ -13,7 +13,7 @@ Shunyi = load_shunyi()
 
 #mendefinisikan dan mengambil data
 def load_Huairou():
-    Huairou = pd.read_csv("../Dashboard/PRSA_Data_Huairou_20130301-20170228.csv")
+    Huairou = pd.read_csv("Dashboard/PRSA_Data_Huairou_20130301-20170228.csv")
     return Huairou
 Huairou = load_Huairou()
 
