@@ -7,7 +7,7 @@ import seaborn as sns
 @st.cache_resource
 #mendefinisikan dan mengambil data
 def load_shunyi():
-    Shunyi = pd.read_csv("../Dashboard/PRSA_Data_Shunyi_20130301-20170228.csv")
+    Shunyi = pd.read_csv("Dashboard/PRSA_Data_Shunyi_20130301-20170228.csv")
     return Shunyi
 Shunyi = load_shunyi()
 
