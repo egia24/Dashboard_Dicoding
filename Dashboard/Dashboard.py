@@ -19,7 +19,7 @@ Huairou = load_Huairou()
 
 #mendefinisikan dan mengambil data
 def load_Wanliu():
-    Wanliu = pd.read_csv("../Dashboard/PRSA_Data_Wanliu_20130301-20170228.csv")
+    Wanliu = pd.read_csv("Dashboard/PRSA_Data_Wanliu_20130301-20170228.csv")
     return Wanliu
 Wanliu = load_Wanliu()
 
